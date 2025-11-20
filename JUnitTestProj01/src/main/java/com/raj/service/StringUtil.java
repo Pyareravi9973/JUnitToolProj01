@@ -10,7 +10,7 @@ public class StringUtil {
 	}
 	
 	public int getLength(String str) {
-		int length = str.length();
+		int length = str.length();//Gives the length of the String
 		return length;
 	}
 	
