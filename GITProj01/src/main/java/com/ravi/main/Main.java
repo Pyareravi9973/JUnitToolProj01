@@ -1,6 +1,7 @@
 package com.ravi.main;
 
 import com.ravi.card.Card;
+import com.ravi.cash.Cash;
 import com.ravi.nb.NetBanking;
 import com.ravi.service.ArithmeticOperation;
 import com.ravi.upi.UPIPayment;
@@ -31,6 +32,11 @@ public class Main {
 	String paymentByCard = card.paymentByCard();
 	System.out.println(paymentByCard);
 	
+	System.out.println("=================================");
+	
+	Cash cash=new Cash();
+	String payment = cash.payment();
+	System.out.println(payment);
 	
 	
 	}
