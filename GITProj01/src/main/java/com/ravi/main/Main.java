@@ -1,5 +1,6 @@
 package com.ravi.main;
 
+import com.ravi.card.Card;
 import com.ravi.nb.NetBanking;
 import com.ravi.service.ArithmeticOperation;
 import com.ravi.upi.UPIPayment;
@@ -22,6 +23,15 @@ public class Main {
 	NetBanking nb=new NetBanking();
 	String result=nb.transferMoney(123456789L, 987456123L, 20000.0,"RTGS");
 	System.out.println(result);
+	
+	
+	System.out.println("================================");
+	
+	Card card=new Card();
+	String paymentByCard = card.paymentByCard();
+	System.out.println(paymentByCard);
+	
+	
 	
 	}
 }
