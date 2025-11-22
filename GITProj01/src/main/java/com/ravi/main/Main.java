@@ -20,7 +20,7 @@ public class Main {
 	System.out.println("=========================");
 	
 	NetBanking nb=new NetBanking();
-	String result=nb.transferMoney(123456789L, 987456123L, 20000.0);
+	String result=nb.transferMoney(123456789L, 987456123L, 20000.0,"RTGS");
 	System.out.println(result);
 	
 	}
